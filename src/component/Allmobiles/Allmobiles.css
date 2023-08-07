@@ -1,0 +1,84 @@
+.main-container-allmobiles{
+    display: flex;
+}
+.catagory-option{
+    height: 100%;
+    widows: 100%;
+    background-color: brown;
+    border: 2px solid red;
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.catagory-option select{
+    height: 50px;
+    outline: none;
+    border: none;
+    font-family: 'Limelight', cursive;
+    width: 150px;
+    background-color: rgb(255, 157, 0);
+    text-align: center;
+    margin: 10px 10px;
+    position: relative;
+    left: 10px;
+}
+.catagory-option select option{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgb(68, 2, 52);
+    color: rgb(202, 255, 42);
+}
+.catagory-images{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+/* display: inline-block; */
+width: 61px;
+border: 2px solid red;
+background-color: rgb(212, 188, 188);
+}
+.catagory-images img{
+     height: 60px;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+    width: 55px;
+}
+.moreloaderbtn{
+    
+    display: flex;
+    justify-content: center;
+}
+.moreloaderbtn button{
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    width: 200px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 157, 0);
+    margin: 630px 0px;
+    font-size: 25px;
+    outline: none;
+    background-color: cadetblue;
+
+}
+.left-img-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: -630px 35px;
+    position: relative;
+    left: 30px;
+    /* width: 83%; */
+    background-color: rgb(255, 79, 135);
+    /* margin: -200px 0px; */
+}
+
+.left-img-container img{
+
+    flex-wrap: wrap;
+    height: 200px;
+    width: 140px;
+    margin: 10px 4px;
+    border: 2px solid red;
+}
+

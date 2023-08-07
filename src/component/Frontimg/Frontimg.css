@@ -1,0 +1,44 @@
+   .main-container-Frontimg{
+     display: flex; 
+     background-color: rgb(21, 207, 80);
+     height: 100%;
+     position: relative;
+ } 
+ .left-img{
+    height: 500px;
+    width: 500px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+}
+.left-img img{
+    flex: 0 0 auto; 
+    max-width: 100%;
+    height: 100%; 
+    margin-bottom: 10px; 
+ }
+ .sekond-left-img{
+    height: 500px;
+    width: 800px;
+    margin: 180px 0px;
+    box-sizing: border-box;
+
+ }
+ .sekond-left-img img{
+    flex: 0 0 auto; 
+    max-width: 100%;
+    height: 100%; 
+    margin-bottom: 10px; 
+ }
+ .mid-img{
+    height: 400px;
+    width: 400px;
+    margin: 10px 2px;
+    box-sizing: border-box;
+ }
+ .mid-img img{
+    flex: 0 0 auto; 
+    max-width: 100%;
+    height: 100%; 
+    margin-bottom: 10px; 
+ }
+ 

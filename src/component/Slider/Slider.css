@@ -1,0 +1,39 @@
+.main-container-slider{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    width: 70%;
+    margin: 0px auto;
+    height: 200px;
+    overflow: hidden;
+}
+.pre-button{
+width: 60px;
+background-color: aqua;
+border: 2px solid red;
+height: 200px;
+}
+.slider-imag{
+background-color: aqua;
+border: 2px solid red;
+height: 200px;
+flex-grow: 2;
+}
+.slider-imag img{
+    width: 100%;
+    position: relative;
+    height: 200px;
+    }
+.next-button{
+width: 60px;    
+background-color: aqua;
+border: 2px solid red;
+height: 200px;
+}
+.pre-button i{
+    font-size: 30px;
+    margin: 100px 0px;
+}
+.next-button i{
+    font-size: 30px;
+    margin: 100px 30px;
+}

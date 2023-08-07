@@ -1,0 +1,16 @@
+
+.main-container-Marqitag{
+    margin: 20px 0px;
+    display: inline-block;
+    position: relative;
+    height: 190px;
+}
+.main-container-Marqitag img{
+    /* display: contents; */
+    z-index: 111px;
+    border-radius: 20px;
+    position: relative;
+    height: 170px;
+    width: 350px;
+    margin: 0px 25px;
+}

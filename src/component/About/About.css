@@ -1,0 +1,29 @@
+.main-container-about{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(3, 3, 40);
+}
+.main-container-about img{
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    clip-path: ellipse(42% 50% at 50% 50%);
+    margin: 10px 0px;
+    display: inline;
+}
+h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 153, 0);
+}
+.main-container-about span{
+    flex-wrap: wrap;
+    width: 600px;
+    border: 2px solid rebeccapurple;
+    color:antiquewhite ;
+    height: 100%;
+    margin: 10px 0px;
+    display: inline;
+}
+
